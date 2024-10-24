@@ -1,0 +1,1165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
+body {
+    background-color: rgba(31, 36, 45, 1);
+    color: #ffffff;
+}
+
+header {
+    max-width: 1440px;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 130px;
+}
+
+header nav .burger {
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgba(0, 238, 255, 1);
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 221px 130px 30px 130px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.hero-text {
+    max-width: 40%;
+}
+
+.hero-text h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: white;
+}
+
+.hero-text h2 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72.8px;
+    color: white;
+}
+
+.hero-text span {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgba(0, 238, 255, 1);
+}
+
+.hero-text h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: white;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+}
+
+.hero-text .social-links {
+    margin: 30px 0px;
+}
+
+.hero-text .dwnbtn {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: rgba(50, 57, 70, 1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 238, 255, 1);
+    border: none;
+    padding: 11px 27px;
+    border-radius: 40px;
+    background-color: rgba(0, 238, 255, 1);
+}
+
+.hero-image img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.services {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: white;
+    margin: 50px 0px 27px 0px;
+}
+
+.services span {
+    color: rgba(0, 238, 255, 1);
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.card {
+    margin: 0 auto;
+    max-width: 380px;
+    max-height: 369px;
+    background-color: rgba(50, 57, 70, 1);
+    border-radius: 20px;
+    padding: 32px 31px 53px 30px;
+}
+
+.card img {
+    width: 70px;
+    margin-top: -10px;
+}
+
+.card h3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    margin: 2px 0px 10px 0px;
+}
+
+.card p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: white;
+}
+
+.card .cardbtn {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 11px 28px;
+    border: none;
+    border-radius: 40px;
+    background-color: rgba(0, 238, 255, 1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 238, 255, 1);
+    margin: 42px 0px 42px 0px;
+}
+
+.project-section {
+    max-width: 1540px;
+    max-height: 1200px;
+    background-color: rgba(50, 57, 70, 1);
+    padding: 100px 0px 163px 0px;
+    margin: 0 auto;
+    margin-top: 237px;
+}
+
+.project-section h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: white;
+}
+
+.project-section h1 span {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: rgba(0, 238, 255, 1);
+}
+
+.project-gallery {
+    margin: 0 auto;
+    max-width: 1200px;
+    max-height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.project-gallery img {
+    max-width: 377px;
+    border-radius: 10px;
+}
+
+.contact-section {
+    max-width: 1440px;
+    max-height: 867px;
+    padding: 100px 0px 244px 0px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: white;
+}
+
+.contact-section span {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: rgba(0, 238, 255, 1);
+}
+
+form {
+    max-width: 700px;
+    max-height: 502px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(117, 117, 117, 1);
+    gap: 14px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.squad {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.squad input {
+    padding: 16px 243.76px 16px 15px;
+    background-color: rgba(50, 57, 70, 1);
+    border-radius: 8px;
+    border: none;
+}
+
+.fname {
+    max-width: 343px;
+    max-height: 55px;
+}
+
+.emaila {
+    max-width: 343px;
+    max-height: 55px;
+}
+
+.phonen {
+    max-width: 343px;
+    max-height: 55px;
+}
+
+.emails {
+    max-width: 343px;
+    max-height: 55px;
+}
+
+form textarea {
+    max-width: 700px;
+    height: 280px;
+    background-color: rgba(50, 57, 70, 1);
+    border-radius: 8px;
+    border: none;
+}
+
+form button {
+    max-width: 187px;
+    margin: 0 auto;
+    margin-top: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 11px 28px;
+    border: none;
+    background-color: rgba(0, 238, 255, 1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 238, 255, 1);
+    border-radius: 40px;
+}
+
+footer {
+    display: flex;
+    max-width: 1540px;
+    margin: 0 auto;
+    padding: 28.5px 130px 28.5px 130px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgba(50, 57, 70, 1);
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+
+footer a {
+    padding: 10px 12px;
+    text-decoration: none;
+    border-radius: 8px;
+    background-color: rgba(0, 238, 255, 1);
+    color: black;
+    font-weight: 700;
+}
+
+@media (max-width: 1024px) {
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 19px 91.5px;
+    }
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 67px 110px;
+        max-width: 1440px;
+        margin: 0 auto;
+        gap: 13px;
+    }
+    .hero-text {
+        max-width: 467px;
+    }
+    .hero-text h1 {
+        font-size: 28.2px;
+        font-weight: 700;
+        line-height: 42.3px;
+        color: white;
+    }
+    .hero-text h2 {
+        font-size: 49.3px;
+        font-weight: 700;
+        line-height: 64.06px;
+        color: white;
+    }
+    .hero-text span {
+        font-size: 28.2px;
+        font-weight: 700;
+        line-height: 42.3px;
+        color: rgba(0, 238, 255, 1);
+    }
+    .hero-text h3 {
+        font-size: 28.2px;
+        font-weight: 700;
+        line-height: 42.3px;
+        color: white;
+    }
+    .hero-text p {
+        font-size: 14.1px;
+        font-weight: 400;
+        line-height: 21.15px;
+        color: white;
+    }
+    .hero-text .social-links {
+        margin: 30px 0px;
+    }
+    .hero-text .social-links img {
+        width: 35.19px;
+    }
+    .hero-text .dwnbtn {
+        font-size: 14.1px;
+        font-weight: 600;
+        line-height: 21.15px;
+        letter-spacing: 0.8799999952316284px;
+        color: rgba(50, 57, 70, 1);
+        box-shadow: 0px 0px 8.8px 0px rgba(0, 238, 255, 1);
+        border: none;
+        padding: 10px 24px;
+        border-radius: 35.2px;
+        background-color: rgba(0, 238, 255, 1);
+    }
+    .hero-image {
+        max-width: 358px;
+    }
+    .hero-image img {
+        border-radius: 10px;
+        max-width: 100%;
+    }
+    .services {
+        padding: 69px 92px;
+        max-width: 1440px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .services h2 {
+        font-size: 39.6px;
+        font-weight: 700;
+        line-height: 59.4px;
+        text-align: center;
+        color: white;
+        margin: 90px 0px 46px 0px;
+    }
+    .services span {
+        font-size: 39.6px;
+        font-weight: 700;
+        line-height: 59.4px;
+        color: rgba(0, 238, 255, 1);
+    }
+    .service-cards {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        gap: 20px;
+    }
+    .card {
+        margin: 0 auto;
+        max-width: 268px;
+        max-height: 427px;
+        background-color: rgba(50, 57, 70, 1);
+        border-radius: 20px;
+        padding: 34px 21px 36px 21px;
+    }
+    .card img {
+        width: 61px;
+        margin-top: -10px;
+    }
+    .card h3 {
+        font-size: 14.1px;
+        font-weight: 400;
+        line-height: 21.15px;
+        text-align: center;
+        color: white;
+    }
+    .card p {
+        font-size: 14.1px;
+        font-weight: 400;
+        line-height: 21.15px;
+        text-align: center;
+        color: white;
+    }
+    .card .cardbtn {
+        font-size: 14.1px;
+        font-weight: 600;
+        line-height: 21.15px;
+        letter-spacing: 0.8799999952316284px;
+        text-align: center;
+        padding: 9px 24px;
+        border: none;
+        border-radius: 40px;
+        background-color: rgba(0, 238, 255, 1);
+        box-shadow: 0px 0px 8.8px 0px rgba(0, 238, 255, 1);
+        margin: 28px 0px 36px 0px;
+    }
+    .project-section {
+        max-width: 1024px;
+        max-height: 1040px;
+        background-color: rgba(50, 57, 70, 1);
+        padding: 90px 0px 80.63px 0px;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+    .project-section h1 {
+        font-size: 39.6px;
+        font-weight: 700;
+        line-height: 59.4px;
+        text-align: center;
+        color: white;
+    }
+    .project-section h1 span {
+        font-size: 39.6px;
+        font-weight: 700;
+        line-height: 59.4px;
+        text-align: center;
+        color: rgba(0, 238, 255, 1);
+    }
+    .project-gallery {
+        margin: 0 auto;
+        max-width: 1200px;
+        max-height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 22px;
+        justify-content: space-evenly;
+        margin-top: 35px;
+    }
+    .project-gallery img {
+        max-width: 305px;
+        max-height: 233px;
+        border-radius: 10px;
+    }
+    .contact-section {
+        max-width: 1024px;
+        max-height: 646.43px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .contact-section h1 {
+        font-size: 39.6px;
+        font-weight: 700;
+        line-height: 59.4px;
+        text-align: center;
+        color: white;
+    }
+    .contact-section span {
+        font-size: 39.6px;
+        font-weight: 700;
+        line-height: 59.4px;
+        text-align: center;
+        color: rgba(0, 238, 255, 1);
+    }
+    form {
+        max-width: 616px;
+        max-height: 429px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 14.1px;
+        font-weight: 400;
+        line-height: 21.15px;
+        color: rgba(117, 117, 117, 1);
+        gap: 12.3px;
+        margin: 0 auto;
+        margin-top: 26px;
+    }
+    .squad {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12.3px;
+    }
+    .squad input {
+        padding: 13.18px 243.76px 14.2px 13.19px;
+        background-color: rgba(50, 57, 70, 1);
+        border-radius: 8px;
+        border: none;
+    }
+    .fname {
+        max-width: 301px;
+        max-height: 48px;
+    }
+    .emaila {
+        max-width: 301px;
+        max-height: 48px;
+    }
+    .phonen {
+        max-width: 301px;
+        max-height: 48px;
+    }
+    .emails {
+        max-width: 301px;
+        max-height: 48px;
+    }
+    form textarea {
+        max-width: 616px;
+        height: 236px;
+        background-color: rgba(50, 57, 70, 1);
+        border-radius: 7.04px;
+        border: none;
+    }
+    form button {
+        max-width: 187px;
+        margin: 0 auto;
+        margin-top: 15px;
+        font-size: 14.1px;
+        font-weight: 600;
+        line-height: 21.15px;
+        letter-spacing: 0.8799999952316284px;
+        text-align: center;
+        padding: 8.8px 24.3px 9.8px 24.62px;
+        border: none;
+        background-color: rgba(0, 238, 255, 1);
+        box-shadow: 0px 0px 8.8px 0px rgba(0, 238, 255, 1);
+        border-radius: 35.2px;
+    }
+    footer {
+        display: flex;
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 25px 23px;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between;
+    }
+    @media (max-width: 768px) {
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 19px 27px 18px 23px;
+        }
+        header nav ul {
+            display: none;
+        }
+        header nav .burger {
+            display: initial;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 234px 43px 0px 23px;
+            max-width: 1440px;
+            margin: 0 auto;
+            gap: 13px;
+            flex-direction: column;
+        }
+        .hero-text {
+            max-width: 1440px;
+        }
+        .hero-text h1 {
+            font-size: 22.9px;
+            font-weight: 700;
+            line-height: 34.35px;
+            color: white;
+        }
+        .hero-text h2 {
+            font-size: 44px;
+            font-weight: 700;
+            line-height: 57.2px;
+            color: white;
+        }
+        .hero-text span {
+            font-size: 22.9px;
+            font-weight: 700;
+            line-height: 34.35px;
+            color: rgba(0, 238, 255, 1);
+        }
+        .hero-text h3 {
+            font-size: 22.9px;
+            font-weight: 700;
+            line-height: 34.35px;
+            color: white;
+        }
+        .hero-text p {
+            font-size: 14.1px;
+            font-weight: 400;
+            line-height: 21.15px;
+            color: white;
+        }
+        .hero-text .social-links {
+            margin: 30px 0px;
+        }
+        .hero-text .social-links img {
+            width: 35.19px;
+        }
+        .hero-text .dwnbtn {
+            font-size: 14.1px;
+            font-weight: 600;
+            line-height: 21.15px;
+            letter-spacing: 0.8799999952316284px;
+            color: rgba(50, 57, 70, 1);
+            box-shadow: 0px 0px 8.8px 0px rgba(0, 238, 255, 1);
+            border: none;
+            padding: 9px 24px;
+            border-radius: 35.2px;
+            background-color: rgba(0, 238, 255, 1);
+        }
+        .hero-image {
+            max-width: 1440px;
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        .hero-image img {
+            border-radius: 10px;
+            max-width: 100%;
+        }
+        .services {
+            padding: 0px 23px 127px 23px;
+            max-width: 1440px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .services h2 {
+            font-family: Poppins;
+            font-weight: 700;
+            line-height: 59.4px;
+            text-align: center;
+            color: white;
+            margin: 90px 0px 28px 0px;
+        }
+        .services span {
+            font-size: 39.6px;
+            font-weight: 700;
+            line-height: 59.4px;
+            color: rgba(0, 238, 255, 1);
+        }
+        .service-cards {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            gap: 20px;
+            flex-wrap: wrap;
+            max-width: 768px;
+        }
+        .card {
+            margin: 0 auto;
+            max-width: 48%;
+            max-height: 386px;
+            background-color: rgba(50, 57, 70, 1);
+            border-radius: 20px;
+            padding: 26px 36px 36px 35px;
+        }
+        .big-card {
+            max-width: 100%;
+            max-height: 275px;
+        }
+        .card img {
+            width: 61px;
+            margin-top: -10px;
+        }
+        .card h3 {
+            font-size: 22.9px;
+            font-weight: 700;
+            line-height: 34.35px;
+            text-align: center;
+            color: white;
+        }
+        .card p {
+            font-size: 14.1px;
+            font-weight: 400;
+            line-height: 21.15px;
+            text-align: center;
+            color: white;
+        }
+        .card .cardbtn {
+            font-size: 14.1px;
+            font-weight: 600;
+            line-height: 21.15px;
+            letter-spacing: 0.8799999952316284px;
+            text-align: center;
+            padding: 9px 24px;
+            border: none;
+            border-radius: 35px;
+            background-color: rgba(0, 238, 255, 1);
+            box-shadow: 0px 0px 8.8px 0px rgba(0, 238, 255, 1);
+            margin: 18px 0px 36px 0px;
+        }
+        .project-section {
+            max-width: 768px;
+            max-height: 1783px;
+            background-color: rgba(50, 57, 70, 1);
+            padding: 88px 0px 87px 0px;
+            margin: 0 auto;
+            margin-top: 197.11px;
+        }
+        .project-section h1 {
+            font-size: 39.6px;
+            font-weight: 700;
+            line-height: 59.4px;
+            text-align: center;
+            color: white;
+        }
+        .project-section h1 span {
+            font-size: 39.6px;
+            font-weight: 700;
+            line-height: 59.4px;
+            text-align: center;
+            color: rgba(0, 238, 255, 1);
+        }
+        .project-gallery {
+            margin: 0 auto;
+            max-width: 740px;
+            max-height: 1783px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 22px;
+            justify-content: space-evenly;
+            margin-top: 35px;
+        }
+        .project-gallery img {
+            max-width: 300px;
+            border-radius: 10px;
+        }
+        .contact-section {
+            max-width: 768px;
+            max-height: 646.63px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .contact-section h1 {
+            font-size: 39.6px;
+            font-weight: 700;
+            line-height: 59.4px;
+            text-align: center;
+            color: white;
+        }
+        .contact-section span {
+            font-size: 39.6px;
+            font-weight: 700;
+            line-height: 59.4px;
+            text-align: center;
+            color: rgba(0, 238, 255, 1);
+        }
+        form {
+            max-width: 616px;
+            max-height: 429px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            font-size: 14.1px;
+            font-weight: 400;
+            line-height: 21.15px;
+            color: rgba(117, 117, 117, 1);
+            gap: 12.3px;
+            margin: 0 auto;
+            margin-top: 32px;
+        }
+        .squad {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12.3px;
+        }
+        .squad input {
+            padding: 13.18px 218.89px 14.2px 13.19px;
+            background-color: rgba(50, 57, 70, 1);
+            border-radius: 7px;
+            border: none;
+        }
+        .fname {
+            max-width: 301px;
+            max-height: 48px;
+        }
+        .emaila {
+            max-width: 301px;
+            max-height: 48px;
+        }
+        .phonen {
+            max-width: 301px;
+            max-height: 48px;
+        }
+        .emails {
+            max-width: 301px;
+            max-height: 48px;
+        }
+        form textarea {
+            max-width: 616px;
+            height: 236px;
+            background-color: rgba(50, 57, 70, 1);
+            border-radius: 7.04px;
+            border: none;
+        }
+        form button {
+            max-width: 187px;
+            margin: 0 auto;
+            margin-top: 15px;
+            font-size: 14.1px;
+            font-weight: 600;
+            line-height: 21.15px;
+            letter-spacing: 0.8799999952316284px;
+            text-align: center;
+            padding: 8.8px 24.3px 9.8px 24.62px;
+            border: none;
+            background-color: rgba(0, 238, 255, 1);
+            box-shadow: 0px 0px 8.8px 0px rgba(0, 238, 255, 1);
+            border-radius: 35.2px;
+        }
+    }
+    @media (max-width: 635px) {
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 17px 24px 17px 0px;
+            gap: 253px;
+        }
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 28px 24px 0px 12px;
+            max-width: 1440px;
+            margin: 0 auto;
+            gap: 13px;
+            flex-direction: column;
+        }
+        .hero-text {
+            max-width: 1440px;
+        }
+        .hero-text h1 {
+            font-size: 20.8px;
+            font-weight: 700;
+            line-height: 31.2px;
+            color: white;
+        }
+        .hero-text h2 {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 52px;
+            color: white;
+        }
+        .hero-text span {
+            font-size: 20.8px;
+            font-weight: 700;
+            line-height: 31.2px;
+            color: rgba(0, 238, 255, 1);
+        }
+        .hero-text h3 {
+            font-size: 20.8px;
+            font-weight: 700;
+            line-height: 31.2px;
+            color: white;
+        }
+        .hero-text p {
+            font-size: 12.8px;
+            font-weight: 400;
+            line-height: 19.2px;
+            color: white;
+        }
+        .hero-text .social-links {
+            margin: 30px 0px;
+        }
+        .hero-text .social-links img {
+            width: 32px;
+        }
+        .hero-text .dwnbtn {
+            font-size: 12.8px;
+            font-weight: 600;
+            line-height: 19.2px;
+            color: rgba(50, 57, 70, 1);
+            box-shadow: 0px 0px 8px 0px rgba(0, 238, 255, 1);
+            border: none;
+            padding: 9px 22px;
+            border-radius: 35.2px;
+            background-color: rgba(0, 238, 255, 1);
+        }
+        .hero-image {
+            max-width: 1440px;
+            margin: 0 auto;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        .hero-image img {
+            border-radius: 10px;
+            max-width: 273px;
+        }
+        .services {
+            max-width: 1440px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .services h2 {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 54px;
+            text-align: center;
+            color: white;
+            margin: 82px 0px 26px 0px;
+        }
+        .services span {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 54px;
+            color: rgba(0, 238, 255, 1);
+        }
+        .service-cards {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            flex-wrap: wrap;
+            max-width: 590px;
+        }
+        .card {
+            margin: 0 auto;
+            max-width: 366px;
+            max-height: 305px;
+            background-color: rgba(50, 57, 70, 1);
+            border-radius: 20px;
+            padding: 26px 11px 36px 11px;
+        }
+        .card img {
+            width: 46px;
+        }
+        .card h3 {
+            font-size: 20.8px;
+            font-weight: 700;
+            line-height: 31.2px;
+            text-align: center;
+            color: white;
+        }
+        .card p {
+            font-size: 12.8px;
+            font-weight: 400;
+            line-height: 19.2px;
+            text-align: center;
+            color: white;
+        }
+        .card .cardbtn {
+            font-size: 12.8px;
+            font-weight: 600;
+            line-height: 19.2px;
+            text-align: center;
+            padding: 8px 23px;
+            border: none;
+            border-radius: 32px;
+            background-color: rgba(0, 238, 255, 1);
+            box-shadow: 0px 0px 8px 0px rgba(0, 238, 255, 1);
+            margin: 28px 0px 0px 0px;
+        }
+        .project-section {
+            max-width: 768px;
+            max-height: 1783px;
+            background-color: rgba(50, 57, 70, 1);
+            padding: 88px 0px 87px 0px;
+            margin: 0 auto;
+            margin-top: 197.11px;
+        }
+        .project-section h1 {
+            font-size: 39.6px;
+            font-weight: 700;
+            line-height: 59.4px;
+            text-align: center;
+            color: white;
+        }
+        .project-section h1 span {
+            font-size: 39.6px;
+            font-weight: 700;
+            line-height: 59.4px;
+            text-align: center;
+            color: rgba(0, 238, 255, 1);
+        }
+        .project-gallery {
+            margin: 0 auto;
+            max-width: 740px;
+            max-height: 1783px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 22px;
+            justify-content: space-evenly;
+            margin-top: 35px;
+        }
+        .project-gallery img {
+            max-width: 366px;
+            max-height: 244px;
+            border-radius: 10px;
+        }
+        .contact-section {
+            max-width: 634px;
+            max-height: 681px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .contact-section h1 {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 54px;
+            text-align: center;
+            color: white;
+        }
+        .contact-section span {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 54px;
+            text-align: center;
+            color: rgba(0, 238, 255, 1);
+        }
+        form {
+            max-width: 366px;
+            max-height: 482px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            font-size: 12.8px;
+            font-weight: 400;
+            line-height: 19.2px;
+            text-align: left;
+            color: rgba(117, 117, 117, 1);
+            gap: 11.8px;
+            margin: 0 auto;
+            margin-top: 32px;
+        }
+        .squad {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 11.8px;
+        }
+        .squad input {
+            padding: 12px 290px 13px 12px;
+            background-color: rgba(50, 57, 70, 1);
+            border-radius: 6.4px;
+            border: none;
+        }
+        .fname {
+            max-width: 366px;
+            max-height: 42px;
+        }
+        .emaila {
+            max-width: 366px;
+            max-height: 42px;
+        }
+        .phonen {
+            max-width: 366px;
+            max-height: 42px;
+        }
+        .emails {
+            max-width: 366px;
+            max-height: 42px;
+        }
+        form textarea {
+            max-width: 366px;
+            height: 204px;
+            background-color: rgba(50, 57, 70, 1);
+            border-radius: 7.04px;
+            border: none;
+        }
+        form button {
+            max-width: 187px;
+            margin: 0 auto;
+            margin-top: 15px;
+            font-size: 14.1px;
+            font-weight: 600;
+            line-height: 21.15px;
+            letter-spacing: 0.8799999952316284px;
+            text-align: center;
+            padding: 8.8px 24.3px 9.8px 24.62px;
+            border: none;
+            background-color: rgba(0, 238, 255, 1);
+            box-shadow: 0px 0px 8.8px 0px rgba(0, 238, 255, 1);
+            border-radius: 35.2px;
+        }
+    }
+}
